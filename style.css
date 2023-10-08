@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.container {
+    display: flex;
+    justify-content:center;
+    max-width: 1800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-color: grey;
+}
+.container-product{
+    padding: 50px;
+    height: auto;
+    width:50%;
+    margin: 30px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: 2px solid gray; /* You can change 4px to the desired thickness and #000 to your preferred border color */
+}
+.product-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cart-details{
+    background-color: grey;
+    color:white;
+    padding: 10px;
+    /* width: auto
+    height: 20px; */
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border: 2px solid grey; /* You can change 4px to the desired thickness and #000 to your preferred border color */
+}
+
+h2{
+    text-align:center;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.product-details{
+    background-color: grey;
+    color:white;
+    padding: 10px;
+    /* width: auto
+    height: 20px; */
+    margin:10px;
+    display: flex;
+    justify-content: space-around;
+align-items:center;
+border-radius: 10px;
+    border: 2px solid grey; /* You can change 4px to the desired thickness and #000 to your preferred border color */
+}
+
+.button{
+    margin: 5px;
+    display: flex;
+    min-width:100px;
+    align-items: center;
+    border-radius :15px;
+    justify-content: space-between;
+    background-color: aqua;
+    font-size: larger;
+    border-radius: 10px;
+    border: 2px solid grey; /* You can change 4px to the desired thickness and #000 to your preferred border color */
+}
+.quantity{
+    color: black;
+}
+.change-quanity-minus{
+
+width: 33%;
+margin:5%;
+background-color: aqua;
+border:0px;
+font-weight: bolder;
+font-size: larger;
+}
+
+.change-quanity-plus{
+
+    width: 33%;
+    margin:5%;
+    background-color: aqua;
+    border:0px;
+    font-weight: bolder;
+    font-size: larger;
+    }
+
+
+p{
+    color: black;
+}
+.cart-empty {
+    font-weight: bold;
+    color: #999;
+    align-items: center;
+}
+
+.container-cart{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 100%;
+    width:30%;
+    margin: 30px;
+    margin-right: 5px;
+    /* border-color: red; */
+    border: 2px solid gray; /* You can change 4px to the desired thickness and #000 to your preferred border color */
+}
+
+.cart-items{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+padding: 10px;
+width: 100%;
+align-items: center;
+}
+
+.cart-item{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    color:white;
+    padding:10px;
+    margin:10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid grey; /* You can change 4px to the desired thickness and #000 to your preferred border color */
+}
+
+.total{
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    padding: 10px;
+    margin:10px;
+    border: 2px solid #000;
+    width: auto;
+    padding-left: 10%;
+    border-radius: 10px;
+    border: 2px solid grey; /* You can change 4px to the desired thickness and #000 to your preferred border color */
+}
+
+.price{
+    margin-left: 50%;
+}
